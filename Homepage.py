@@ -7,7 +7,7 @@ def student():
         return render_template('student.html')
 
 
-@app.route('/next', methods=['post'])
+@app.route('/click', methods=['post'])
 def next():
     form_dict = request.form
     if 'submit' in form_dict:
